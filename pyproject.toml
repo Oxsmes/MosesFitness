@@ -1,0 +1,17 @@
+[project]
+name = "repl-nix-workspace"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "flask-login>=0.6.3",
+    "openai>=1.65.5",
+    "pandas>=2.2.3",
+    "plotly>=6.0.0",
+    "psycopg2-binary>=2.9.10",
+    "sqlalchemy>=2.0.38",
+    "streamlit>=1.43.1",
+    "trafilatura>=2.0.0",
+    "twilio>=9.4.6",
+    "werkzeug>=3.1.3",
+]
